@@ -1,12 +1,62 @@
-# React + Vite
+# ACC Landing Page Revamp
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This project is a revamp of the Austin Community College (ACC) landing page, designed to showcase modern web development practices and create a more engaging user experience. It was built using React and Tailwind CSS. This project was created to demonstrate my skills to potential employers.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
 
-## Expanding the ESLint configuration
+- Frontend:
+  - React: A JavaScript library for building user interfaces.
+  - Tailwind CSS: A utility-first CSS framework for rapidly building custom designs.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+- Modern Design: Implements a clean, modern, and engaging design, taking inspiration from the University of Georgia's landing page.
+- Responsive Layout: Ensures the website is accessible and usable on various screen sizes (desktop, tablet, mobile).
+- Benchmarking: The project was built by benchmarking the UGA landing page.
+
+## Installation
+
+1.  Clone the repository:
+
+    ```bash
+    git clone <repository-url>
+    ```
+
+2.  Navigate to the project directory:
+
+    ```bash
+    cd ACC-Landing
+    ```
+
+3.  Install dependencies:
+
+    ```bash
+    npm install # or yarn install
+    ```
+
+## Usage
+
+1.  Start the development server:
+
+    ```bash
+    npm run dev
+    ```
+
+2.  Open your browser:
+    - The application will be served at `http://localhost:3000` (or a similar address).
+
+## Inspiration
+
+The project's design and functionality are deisgned by, with modifications and improvements tailored for ACC's needs.
+
+## Future Improvements
+
+- \[ \] Add more interactivity.
+- \[ \] Implement dynamic content loading.
+- \[ \] Optimize for accessibility.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE) - see the LICENSE.md file for details.
