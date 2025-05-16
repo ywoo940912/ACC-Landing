@@ -1,7 +1,3 @@
-import { MagnifyingGlassIcon } from "@heroicons/react/16/solid";
-
-import Logo from "/src/assets/Logo.png";
-
 export const Navbar = () => {
   return (
     <>
