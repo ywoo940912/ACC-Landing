@@ -12,7 +12,7 @@ function App() {
     <div className="flex flex-col">
       <Navbar />
       <Hero />
-      <Main />
+      <Content />
       <Why />
       <Major />
       <Spotlight />
