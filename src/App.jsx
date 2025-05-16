@@ -1,11 +1,11 @@
 import "./App.css";
-import { Navbar } from "./page/Navbar.JSX";
-import { Hero } from "./page/Hero.JSX";
-import { Main } from "./page/Main.JSX";
-import { Footer } from "./page/Footer.JSX";
-import { Why } from "./page/Why.JSX";
-import { Major } from "./page/Major.JSX";
-import { Spotlight } from "./page/Spotlight";
+import { Navbar } from "./pages/Navbar";
+import { Hero } from "./pages/Hero";
+import { Content } from "./pages/Content";
+import { Footer } from "./pages/Footer";
+import { Why } from "./pages/Why";
+import { Major } from "./pages/Major";
+import { Spotlight } from "./pages/Spotlight";
 
 function App() {
   return (

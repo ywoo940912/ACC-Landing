@@ -1,4 +1,4 @@
-export const Main = () => {
+export const Content = () => {
   return (
     <section class="flex text-base font-light leading-relaxed text-white bg-[#5E5E5E] bg-center bg-repeat h-[774.969px] w-full py-12 box-border">
       <div class="text-base font-light leading-relaxed text-white h-[678.969px] w-Full transition-transform duration-400 ease-in-out box-border">
