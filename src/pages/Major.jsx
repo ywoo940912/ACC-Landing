@@ -1,3 +1,15 @@
+import ArtImage from "../assets/Art.jpg";
+import BusinessImage from "../assets/Business.jpg";
+import CollegeImage from "../assets/College.jpg";
+import ComputerImage from "../assets/Computer.jpg";
+import CulinaryImage from "../assets/Culinary.jpg";
+import DesignImage from "../assets/Design.jpg";
+import EduImage from "../assets/Edu.jpg";
+import EngineerImage from "../assets/Engineer.jpg";
+import LiberalImage from "../assets/Liberal.jpg";
+import SocialImage from "../assets/Social.jpg";
+import HealthImage from "../assets/Health.jpg";
+
 export const Major = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-0">
@@ -14,40 +26,33 @@ export const Major = () => {
       </div>
 
       <MajorBlock
-        image="/src/assets/Art.jpg"
+        image={ArtImage}
         title="Art, Digital Media & Communications"
       />
-      <MajorBlock image="/src/assets/Business.jpg" title="Business" />
+      <MajorBlock image={BusinessImage} title="Business" />
+      <MajorBlock image={ComputerImage} title="Computer Science & IT" />
       <MajorBlock
-        image="/src/assets/Computer.jpg"
-        title="Computer Science & IT"
-      />
-      <MajorBlock
-        image="/src/assets/Culinary.jpg"
+        image={CulinaryImage}
         title="Culinary, Hospitality & Tourism"
       />
       <MajorBlock
-        image="/src/assets/Design.jpg"
+        image={DesignImage}
         title="Design, Manufacturing, Construction & Applied Technologies"
       />
+      <MajorBlock image={EduImage} title="Education" textColor="white" />
       <MajorBlock
-        image="/src/assets/Edu.jpg"
-        title="Education"
-        textColor="white"
-      />
-      <MajorBlock
-        image="/src/assets/Health.jpg"
+        image={HealthImage}
         title="Health Sciences"
         textColor="white"
       />
-      <MajorBlock image="/src/assets/Liberal.jpg" title="Liberal Arts" />
+      <MajorBlock image={LiberalImage} title="Liberal Arts" />
       <MajorBlock
-        image="/src/assets/Social.jpg"
+        image={SocialImage}
         title="Public & Social Services"
         textColor="white"
       />
       <MajorBlock
-        image="/src/assets/Engineer.jpg"
+        image={EngineerImage}
         title="Science, Engineering & Math"
         textColor="white"
       />
