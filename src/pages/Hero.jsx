@@ -1,7 +1,7 @@
 export const Hero = () => {
   return (
     <div>
-      <div class="font-gotham text-base font-light leading-6 text-start text-white bg-[url(/src/assets/Hero.jpg)] h-[788px] w-[1425px] border-0 m-0 p-0 max-h-none min-h-0 max-w-none min-w-0 top-[60px] bottom-0 left-0 right-0 flex z-0 text-shadow-[0_1px_3px_rgba(0,0,0,0.5)] text-clip">
+      <div class="font-gotham text-base font-light leading-6 text-start text-white bg-black h-[788px] w-[1425px] border-0 m-0 p-0 max-h-none min-h-0 max-w-none min-w-0 top-[60px] bottom-0 left-0 right-0 flex z-0 text-shadow-[0_1px_3px_rgba(0,0,0,0.5)] text-clip">
         <div class="font-gotham text-base font-light leading-6 text-start text-white bg-transparent h-[658px] w-[1425px] border-0 m-0 p-0 max-h-none min-h-auto max-w-none min-w-auto relative flex text-shadow-[0_1px_3px_rgba(0,0,0,0.5)] ">
           <div class="font-gotham text-base font-light leading-6 text-start text-white bg-transparent h-[658px] w-[1320px] border-0 mx-[52.5px] px-[18px] pt-[160px] pb-8 max-h-none min-h-auto max-w-[1320px] min-w-auto relative flex z-1 text-shadow-[0_1px_3px_rgba(0,0,0,0.5)]">
             <div class="font-gotham text-base font-light leading-6 text-start text-white bg-transparent h-[278px] w-[864px] border-0 mb-16 p-0 max-h-none min-h-auto max-w-[864px] min-w-auto block text-shadow-[0_1px_3px_rgba(0,0,0,0.5)]">

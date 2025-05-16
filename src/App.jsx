@@ -9,7 +9,7 @@ import { Spotlight } from "./pages/Spotlight";
 
 function App() {
   return (
-    <div className="flex flex-col">
+    <div>
       <Navbar />
       <Hero />
       <Content />

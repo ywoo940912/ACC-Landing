@@ -59,7 +59,7 @@ export const Content = () => {
             </a>
           </div>
           <img
-            className="ml-250 mb-2000 text-base font-medium leading-[24.8px] text-start text-white bg-transparent h-[105.18px] w-[158px] border-0 m-0 p-0 max-h-none min-h-0 max-w-full min-w-0 inline "
+            className="ml-250 text-base font-medium leading-[24.8px] text-start text-white bg-transparent h-[105.18px] w-[158px] border-0 m-0 p-0 max-h-none min-h-0 max-w-full min-w-0 inline "
             src="//start.austincc.edu/wp-content/uploads/2021/11/acc-logo-2x.png"
             alt="Logo"
           />
