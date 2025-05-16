@@ -1,37 +1,44 @@
 export const Why = () => {
   return (
-    <div className="flex">
-      <div class="font-serif text-base font-light leading-relaxed text-white p-12 h-[624px] w-[712.5px] overflow-visible box-border transition-transform duration-400 ease-in-out">
-        <h3 class="font-['Oswald'] text-4xl font-normal leading-[48px] text-white uppercase mb-4 h-[48px] w-[616.5px]">
-          Why Choose ACC
-        </h3>
-        <li class="font-serif text-base font-light leading-relaxed text-gray-800 h-[93px] w-[616.5px] border-r border-b border-white pr-0 pl-0 py-4 list-none box-border">
-          <button class="font-['Oswald'] text-2xl font-normal leading-7 text-white uppercase text-left h-[60px] w-[616.5px] p-4 flex items-center cursor-pointer transition-colors duration-150 focus:ring-4 focus:ring-red-500/25 box-border">
-            100+ In-Demand Programs
-          </button>
-        </li>
-        <li class="font-serif text-base font-light leading-relaxed text-gray-800 h-[93px] w-[616.5px] border-r border-b border-white pr-0 pl-0 py-4 list-none box-border">
-          <button class="font-['Oswald'] text-2xl font-normal leading-7 text-white uppercase text-left h-[60px] w-[616.5px] p-4 flex items-center cursor-pointer transition-colors duration-150 focus:ring-4 focus:ring-red-500/25 box-border">
-            Low Cost & Stable Tuition
-          </button>
-        </li>
-        <li class="font-serif text-base font-light leading-relaxed text-gray-800 h-[93px] w-[616.5px] border-r border-b border-white pr-0 pl-0 py-4 list-none box-border">
-          <button class="font-['Oswald'] text-2xl font-normal leading-7 text-white uppercase text-left h-[60px] w-[616.5px] p-4 flex items-center cursor-pointer transition-colors duration-150 focus:ring-4 focus:ring-red-500/25 box-border">
-            Claases Offered Anywhere
-          </button>
-        </li>
-        <li class="font-serif text-base font-light leading-relaxed text-gray-800 h-[93px] w-[616.5px] border-r border-b border-white pr-0 pl-0 py-4 list-none box-border">
-          <button class="font-['Oswald'] text-2xl font-normal leading-7 text-white uppercase text-left h-[60px] w-[616.5px] p-4 flex items-center cursor-pointer transition-colors duration-150 focus:ring-4 focus:ring-red-500/25 box-border">
-            Austin's Top Career Gateway
-          </button>
-        </li>
-        <li class="font-serif text-base font-light leading-relaxed text-gray-800 h-[93px] w-[616.5px] border-r border-b border-white pr-0 pl-0 py-4 list-none box-border">
-          <button class="font-['Oswald'] text-2xl font-normal leading-7 text-white uppercase text-left h-[60px] w-[616.5px] p-4 flex items-center cursor-pointer transition-colors duration-150 focus:ring-4 focus:ring-red-500/25 box-border">
-            The Best Start For Your Bachelor's Degree
-          </button>
-        </li>
+    <div className="flex flex-col lg:flex-row">
+      {/* Left Side - Text Content */}
+      <div className="p-6 lg:p-12 text-white flex-1">
+        <h3 className="text-3xl lg:text-4xl font-bold mb-4">Why Choose ACC</h3>
+        <ul className="text-2xl space-y-4">
+          <li className="py-2 border-b border-white/50">
+            <button className="flex items-center w-full text-left py-2 hover:text-gray-300">
+              <span className="mr-2"> {/* Optional icon */} </span>
+              100+ In-Demand Programs
+            </button>
+          </li>
+          <li className="py-2 border-b border-white/50">
+            <button className="flex items-center w-full text-left py-2 hover:text-gray-300 ">
+              <span className="mr-2"> {/* Optional icon */} </span>
+              Low Cost & Stable Tuition
+            </button>
+          </li>
+          <li className="py-2 border-b border-white/50">
+            <button className="flex items-center w-full text-left py-2 hover:text-gray-300 ">
+              <span className="mr-2"> {/* Optional icon */} </span>
+              Classes Offered Anywhere
+            </button>
+          </li>
+          <li className="py-2 border-b border-white/50">
+            <button className="flex items-center w-full text-left py-2 hover:text-gray-300">
+              <span className="mr-2"> {/* Optional icon */} </span>
+              Austin's Top Career Gateway
+            </button>
+          </li>
+          <li className="py-2 border-b border-white/50">
+            <button className="flex items-center w-full text-left py-2 hover:text-gray-300">
+              <span className="mr-2"> {/* Optional icon */} </span>
+              The Best Start For Your Bachelor's Degree
+            </button>
+          </li>
+        </ul>
       </div>
-      <div class="font-serif text-base font-light leading-relaxed text-gray-800 bg-cover bg-center h-[624px] w-[712.5px] bg-[url(/src/assets/Hero.jpg)] box-border"></div>
+
+      <div className="flex-1 bg-cover bg-center h-96 lg:h-auto bg-[url(/src/assets/Hero.jpg)]"></div>
     </div>
   );
 };

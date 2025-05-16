@@ -2,48 +2,42 @@ import React from "react";
 
 export const Spotlight = () => {
   return (
-    <div class="left-0">
-      <div class="bg-[#4D1979]  font-serif text-base font-light leading-relaxed text-white h-[348.781px] w-full  py-12 flex items-center box-border">
-        <h2 class="ml-10 text-4xl font-normal leading-[48px] text-white uppercase mb-6 h-[48px] w-[281.25px]">
-          Events
-        </h2>
-        <li class="font-serif text-base font-light leading-relaxed text-white h-[252.781px] w-[353.25px] border-l border-white/50 pl-8 pr-3 py-10 max-w-full list-none box-border">
-          <div class="font-['Oswald'] text-2xl font-normal leading-8 text-white uppercase text-left h-[33.5938px] w-[308.25px] mb-4 flex overflow-hidden cursor-pointer box-border">
-            ACC summer 2025 registration now open
-          </div>
-          <div class="font-['Oswald'] text-2xl font-normal leading-8 text-white uppercase text-left h-[67.1875px] w-[308.25px] flex overflow-hidden cursor-pointer box-border">
-            Meet with your advisor to create a summer plan and explore support
-            services.
-          </div>
-          <div class="font-['Merriweather_Sans'] text-xl font-normal leading-10 text-white h-10 w-[308.25px] mt-4 cursor-pointer box-border">
-            Register Now
-          </div>
-        </li>
-        <li class="font-serif text-base font-light leading-relaxed text-white h-[252.781px] w-[353.25px] border-l border-white/50 pl-8 pr-3 py-10 max-w-full list-none box-border">
-          <div class="font-['Oswald'] text-2xl font-normal leading-8 text-white uppercase text-left h-[33.5938px] w-[308.25px] mb-4 flex overflow-hidden cursor-pointer box-border">
-            Congrats spring 2025 grads!
-          </div>
-          <div class="font-['Oswald'] text-2xl font-normal leading-8 text-white uppercase text-left h-[67.1875px] w-[308.25px] flex overflow-hidden cursor-pointer box-border">
-            ACC celebrates more than 3,300 invited to participate. Celebrate the
-            Class of 2025 with a message on our padlet wall.
-          </div>
-          <div class="font-['Merriweather_Sans'] text-xl font-normal leading-10 text-white h-10 w-[308.25px] mt-4 cursor-pointer box-border">
-            Send Congrats
-          </div>
-        </li>
-        <li class="font-serif text-base font-light leading-relaxed text-white h-[252.781px] w-[353.25px] border-l border-white/50 pl-8 pr-3 py-10 max-w-full list-none box-border">
-          <div class="font-['Oswald'] text-2xl font-normal leading-8 text-white uppercase text-left h-[33.5938px] w-[308.25px] mb-4 flex overflow-hidden cursor-pointer box-border">
-            ACC’s AAPI Heritage Month Celebration
-          </div>
-          <div class="font-['Oswald'] text-2xl font-normal leading-8 text-white uppercase text-left h-[67.1875px] w-[308.25px] flex overflow-hidden cursor-pointer box-border">
-            Explore community events, workshops, and more fun celebrations from
-            ACC’s AAPI Cultural Center.
-          </div>
-          <div class="font-['Merriweather_Sans'] text-xl font-normal leading-10 text-white h-10 w-[308.25px] mt-4 cursor-pointer box-border">
-            Join Us
-          </div>
-        </li>
+    <div class="bg-[#4D1979] text-white py-12">
+      <div className="container mx-auto">
+        <h2 className="text-3xl font-bold mb-8">Events</h2>
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+          <SpotlightCard
+            title="Pay Your Summer Tuition!"
+            description="Tuition payment deadlines start soon. Discover your payment options, including interest-free payment plans."
+            buttonText="Make a Plan"
+          />
+          <SpotlightCard
+            title="Congrats spring 2025 grads!"
+            description="ACC celebrates more than 3,300 invited to participate. Celebrate the Class of 2025 with a message on our padlet wall."
+            buttonText="Send Congrats"
+          />
+          <SpotlightCard
+            title="ACC summer 2025 registration now open"
+            description="Meet with your advisor to create a summer plan and explore support services."
+            buttonText="Register Now"
+          />
+          <SpotlightCard
+            title="ACC’s AAPI Heritage Month Celebration"
+            description="Explore community events, workshops, and more fun celebrations from ACC’s AAPI Cultural Center."
+            buttonText="Join Us"
+          />
+        </div>
       </div>
     </div>
   );
 };
+
+const SpotlightCard = ({ title, description, buttonText }) => (
+  <div className="border-l-4 border-white/50 pl-6 pr-3 py-6">
+    <h3 className="text-xl font-semibold mb-4">{title}</h3>
+    <p className="text-base mb-4">{description}</p>
+    <button className="px-4 py-2 hover:text-gray-500 rounded-xl">
+      {buttonText}
+    </button>
+  </div>
+);
