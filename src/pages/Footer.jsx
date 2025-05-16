@@ -1,6 +1,3 @@
-import React from "react";
-import Logo from "/src/assets/Logo.png";
-
 export const Footer = () => {
   return (
     <footer className=" text-base font-light leading-6 text-start text-gray-700 bg-[#2E1A47] bg-no-repeat bg-center h-[240px] w-[1425px] border-t-4 border-primary m-0 py-12 ">
